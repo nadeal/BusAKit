@@ -1,10 +1,11 @@
 PODS:
   - BusAKit (0.1.0):
     - YakerKit
-  - YakerKit (0.1.4)
+  - YakerKit (0.1.5)
 
 DEPENDENCIES:
   - BusAKit (from `../`)
+  - YakerKit
 
 SPEC REPOS:
   https://github.com/nadeal/geraSpecs.git:
@@ -16,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BusAKit: 889b9b678c1e3141777f75fad08382e99e2c39ae
-  YakerKit: cd8ce6ee09bcff5ee3863dcf69a7b02205bbbcda
+  YakerKit: 375ce438e2b7fc278e414d075fd4dd7d9a81f9c1
 
-PODFILE CHECKSUM: ace9a0bb400f71aabedd956bed0bc00a90235b24
+PODFILE CHECKSUM: e9511f09d16897a39c2a9312010b5a74b13d52d1
 
 COCOAPODS: 1.10.1

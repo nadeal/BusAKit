@@ -9,36 +9,36 @@
 /* Begin PBXBuildFile section */
 		008A666BC6E0FC39FF41442BBBE45130 /* CTMediator+DYInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA95619A31E743FC644818470D996973 /* CTMediator+DYInfoView.m */; };
 		095DD8A64516852BB6CBE75A75679799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
+		0E8B06CCCA70F568AACE11BDFC603964 /* ToolsAPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00428005CB0376E59B00F693D8BE2ED8 /* ToolsAPageView.m */; };
+		165CFB2AAB345BA6FCB339FB9EA0204C /* ModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4082FFA906C732132088E7170D317DA9 /* ModuleModel.m */; };
 		306F8148989DE0EA0B2182C7D397C44C /* YakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */; };
-		3282DA1FF42E716B025344D3C0D1698E /* YakerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FEF8F4997A60FD37C496D2A1FF24192 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4805286E72CC72E386E8558D16713BD8 /* InfoButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3282DA1FF42E716B025344D3C0D1698E /* YakerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7137C16B6E96925ABC5686C0DA3CA1E /* YakerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490D8E01D85981D6CBE5C10FC6F84EF3 /* ModuleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4413F0830FE96229038601208306AD4B /* ModuleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CFB6921D79E1EAD3199AE82A7B08E05 /* Target_DYInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE63A104A84D1B50B1D4637E344BD3 /* Target_DYInfo.m */; };
 		53F429DD9F25362C115A4A9364F467A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
 		5404898A3AFD47DB2034DC35601D63D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
 		6562105115FF76D67212D53CAA988ADC /* DYMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1EACCFB8A66FDBB27025A7DD67C365 /* DYMineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FEB46AE1DAF0A0283335D9D9B82F570 /* BusAKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7ACA0777FD30DB1827C0ADD86EE0EE3 /* BusAKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73AD5BAC2E7428120D879FD7552C02E3 /* YakerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */; };
+		73AD5BAC2E7428120D879FD7552C02E3 /* YakerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF69A034D1602F69C7E84FE7750CDD7 /* YakerKit-dummy.m */; };
 		7444B2A60D1F11410CD27F276D77CC74 /* Pods-BusAKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2663E74C9449A7EC1F7B7C69EB9C7A /* Pods-BusAKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7638D07E5F81EA25AE39217DEE166345 /* DYInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 072BBAE70E42A0D45F284F808FF77974 /* DYInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8220B0B70093CCA0F67B76D57533CA38 /* ModuleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		855B748DF03987F9B54A110FE73A5482 /* Pods-BusAKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082F2062B7CE9DE36252B9CABA94294 /* Pods-BusAKit_Tests-dummy.m */; };
+		8733E0CE79044B913630EB9062E08A4E /* InfoButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 563CA5FA2F22044E33249A703CA83895 /* InfoButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93F069EBD62AB7BFE43119BD5EFDB706 /* CTMediator+DYInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E7A9E8F7B739DB0F0C58886730E530 /* CTMediator+DYInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9508CD79B2B7E56E97ECDFDCB0111E41 /* Pods-BusAKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6639F70AEB771E1B9E5C9CDB5028509 /* Pods-BusAKit_Example-dummy.m */; };
+		97C60B8204EE853A8E809EEAEF2838A8 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FACD0F57788B5110C398A202E482EBA6 /* CTMediator.m */; };
 		97CB259E2E603899E821D2EACEEB086D /* DYUrlToMine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A57B9FC6875FA151FE315C7ABBC5E22 /* DYUrlToMine.m */; };
-		9EB23344B9FAABBDD2B8BC24AE996D03 /* ToolsAPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */; };
 		A36DC43AA29336D16B46141124715418 /* Pods-BusAKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6208237FDE22516C88CC1D364CFADED9 /* Pods-BusAKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A631AC0DCF7F7EEE64EBD4B834A637A6 /* ToolsAPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9E64A65F07E8D637F14586AFFABA3B /* ToolsAPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7DA21FA8A8D9551DBCD9348E27F61FE /* InfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF6923275592FF4FEFE2A722D30C164 /* InfoButton.m */; };
 		AA2DD51B8FD5ADBB13584B6DE7F8EE53 /* DYUrlToMine.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D54B82AA4616BB3C290BC675BB2BC7 /* DYUrlToMine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5CE88A8597F5B1F45015E35CC3D0A95 /* Target_DYInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F7F02BC8C4C213AA0824F158838398 /* Target_DYInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C044D215F2C8E93D9B8CD9A9F8809873 /* DyBusAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 603004B23F9D9650B2F3A0AD0E36C516 /* DyBusAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C444559A34BF41F7B594C790ACD2BFD2 /* PersonaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1262CBFD5952C4E2534D6CEAF0E1ED3 /* PersonaViewController.m */; };
-		D9614FAA0AA5FE4986338BCFC4002C7E /* ModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */; };
-		D9A9EAA07F64802534EB98C4BA2F0EEC /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */; };
-		D9C6DFCD2164DA0F13F343BDFA5D319D /* InfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */; };
 		DD04EC7214F51B6618D3A49F5AE3DE6E /* DYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79DF768A9DAE0ABD95AD0A4D73464C2 /* DYMineViewController.m */; };
+		E53BBD9881682C7A33C843507B0D825F /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C7C262A81CB3AF1E80D4814C11C8A0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8A3712C238D80D83FB6F91E6C18F7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
 		EAD6E85064459613CD12437F182334A8 /* PersonaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FBFD80C4AFC7D90E807C18E45A13D6 /* PersonaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1A036B1DC1BE06E88C08805A728934 /* ToolsAPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0510D6FFBC8CA930F58654CF4D88612 /* BusAKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B03ACEF3112C12332711C2D47E330E04 /* BusAKit-dummy.m */; };
 		FC6141C9D106033F2353FD405C16C501 /* DYInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FC0759DF9A3D21FB71B015BFC42B86 /* DYInfoViewController.m */; };
 /* End PBXBuildFile section */
@@ -75,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00428005CB0376E59B00F693D8BE2ED8 /* ToolsAPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ToolsAPageView.m; path = YakerKit/KitClasses/ToolsAPageView.m; sourceTree = "<group>"; };
 		0082F2062B7CE9DE36252B9CABA94294 /* Pods-BusAKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BusAKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		02D54B82AA4616BB3C290BC675BB2BC7 /* DYUrlToMine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYUrlToMine.h; sourceTree = "<group>"; };
 		03FAB2D95593258675B6B2FEA22974B4 /* Pods-BusAKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,56 +87,55 @@
 		2E57390524267628D0E3D2DD76C6224B /* Pods-BusAKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34FBFD80C4AFC7D90E807C18E45A13D6 /* PersonaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PersonaViewController.h; sourceTree = "<group>"; };
 		38E7A9E8F7B739DB0F0C58886730E530 /* CTMediator+DYInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+DYInfoView.h"; sourceTree = "<group>"; };
-		3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-umbrella.h"; sourceTree = "<group>"; };
-		3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = YakerKit/Classes/tools/CTMediator.m; sourceTree = "<group>"; };
 		407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BusAKit.framework; path = BusAKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4082FFA906C732132088E7170D317DA9 /* ModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleModel.m; path = YakerKit/KitClasses/ModuleModel.m; sourceTree = "<group>"; };
+		4413F0830FE96229038601208306AD4B /* ModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleModel.h; path = YakerKit/KitClasses/ModuleModel.h; sourceTree = "<group>"; };
 		45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Tests.framework; path = "Pods-BusAKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YakerKit.framework; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfoButton.m; path = YakerKit/Classes/InfoButton.m; sourceTree = "<group>"; };
+		4A08BFA7B8CBBB0DD873F1BAA8D4AFE1 /* YakerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-prefix.pch"; sourceTree = "<group>"; };
 		4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Example.framework; path = "Pods-BusAKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C8AE3747A66CCE03005CA8AC0035C84 /* YakerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YakerKit.modulemap; sourceTree = "<group>"; };
 		54FC0759DF9A3D21FB71B015BFC42B86 /* DYInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYInfoViewController.m; sourceTree = "<group>"; };
+		563CA5FA2F22044E33249A703CA83895 /* InfoButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfoButton.h; path = YakerKit/KitClasses/InfoButton.h; sourceTree = "<group>"; };
 		603004B23F9D9650B2F3A0AD0E36C516 /* DyBusAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DyBusAHeader.h; path = BusAKit/Classes/DyBusAHeader.h; sourceTree = "<group>"; };
 		6208237FDE22516C88CC1D364CFADED9 /* Pods-BusAKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BusAKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		636B78576902B7F7A853EEF9E163D4F8 /* Pods-BusAKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = YakerKit/Classes/tools/CTMediator.h; sourceTree = "<group>"; };
 		6A57B9FC6875FA151FE315C7ABBC5E22 /* DYUrlToMine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYUrlToMine.m; sourceTree = "<group>"; };
 		6D734747FE29196A3664EE9F5A5714BF /* Pods-BusAKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		73C7C262A81CB3AF1E80D4814C11C8A0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = YakerKit/KitClasses/tools/CTMediator.h; sourceTree = "<group>"; };
 		77E08158F8645522307F9B4CE2B515A2 /* Pods-BusAKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CF6923275592FF4FEFE2A722D30C164 /* InfoButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfoButton.m; path = YakerKit/KitClasses/InfoButton.m; sourceTree = "<group>"; };
 		876CB18A7C42B8B3DE4C064FCFBDDEBF /* Pods-BusAKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9ADC173195DE8EB3FEF4D1AFE2763265 /* BusAKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusAKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D3BF355EF73BA14B609231C70718792 /* Pods-BusAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.debug.xcconfig; sourceTree = "<group>"; };
-		A69EAAC2EF2B64C5FC8B51FF53E10A6C /* YakerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-prefix.pch"; sourceTree = "<group>"; };
 		A732FFD2AFB1024547CFBB09AF417C98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A7ACA0777FD30DB1827C0ADD86EE0EE3 /* BusAKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-umbrella.h"; sourceTree = "<group>"; };
 		AC1EACCFB8A66FDBB27025A7DD67C365 /* DYMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYMineViewController.h; sourceTree = "<group>"; };
+		AC9E64A65F07E8D637F14586AFFABA3B /* ToolsAPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolsAPageView.h; path = YakerKit/KitClasses/ToolsAPageView.h; sourceTree = "<group>"; };
 		B03ACEF3112C12332711C2D47E330E04 /* BusAKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BusAKit-dummy.m"; sourceTree = "<group>"; };
-		B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfoButton.h; path = YakerKit/Classes/InfoButton.h; sourceTree = "<group>"; };
-		B388A2E7EEE1914D798D0C7ADEAC5427 /* YakerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YakerKit-Info.plist"; sourceTree = "<group>"; };
+		B2BEA5129FE50955A69AF72A51A6FE17 /* YakerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YakerKit-Info.plist"; sourceTree = "<group>"; };
 		B6639F70AEB771E1B9E5C9CDB5028509 /* Pods-BusAKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BusAKit_Example-dummy.m"; sourceTree = "<group>"; };
 		B79DF768A9DAE0ABD95AD0A4D73464C2 /* DYMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYMineViewController.m; sourceTree = "<group>"; };
 		B7B5221C63D9F7BCA03FEC2FB36AC4D7 /* BusAKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusAKit.release.xcconfig; sourceTree = "<group>"; };
-		B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.release.xcconfig; sourceTree = "<group>"; };
 		BA95619A31E743FC644818470D996973 /* CTMediator+DYInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+DYInfoView.m"; sourceTree = "<group>"; };
-		C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleModel.h; path = YakerKit/Classes/ModuleModel.h; sourceTree = "<group>"; };
 		C7CE63A104A84D1B50B1D4637E344BD3 /* Target_DYInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_DYInfo.m; sourceTree = "<group>"; };
 		C7E43B5F30F44486D3FA0B09258A5D8A /* Pods-BusAKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusAKit_Tests.modulemap"; sourceTree = "<group>"; };
-		CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleModel.m; path = YakerKit/Classes/ModuleModel.m; sourceTree = "<group>"; };
 		CB2663E74C9449A7EC1F7B7C69EB9C7A /* Pods-BusAKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BusAKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		CCBE9FDB8175341C8B3D5E2747680359 /* YakerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.release.xcconfig; sourceTree = "<group>"; };
 		CCEC9FB881AD75D56F2CDD36E2A5B277 /* Pods-BusAKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusAKit_Example.modulemap"; sourceTree = "<group>"; };
+		CE4C00736F73C5CC10CD7719190BF5EE /* YakerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YakerKit.modulemap; sourceTree = "<group>"; };
 		D00AEB34BAA03D2D10467E758A0A6D0D /* BusAKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BusAKit.modulemap; sourceTree = "<group>"; };
-		D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YakerKit-dummy.m"; sourceTree = "<group>"; };
+		DB612F80AA7338F006E650E74C13C23F /* YakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.debug.xcconfig; sourceTree = "<group>"; };
 		DF67CDC11F2F609C86862F77CF5F3323 /* BusAKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-prefix.pch"; sourceTree = "<group>"; };
 		E1262CBFD5952C4E2534D6CEAF0E1ED3 /* PersonaViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PersonaViewController.m; sourceTree = "<group>"; };
 		E1921FD7A0BD9EFC094162E5E06A9DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E7137C16B6E96925ABC5686C0DA3CA1E /* YakerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-umbrella.h"; sourceTree = "<group>"; };
 		E9A23043F84558C70DC0BA631F58B6A5 /* Pods-BusAKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolsAPageView.h; path = YakerKit/Classes/ToolsAPageView.h; sourceTree = "<group>"; };
+		EDF69A034D1602F69C7E84FE7750CDD7 /* YakerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YakerKit-dummy.m"; sourceTree = "<group>"; };
 		F0F7F02BC8C4C213AA0824F158838398 /* Target_DYInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_DYInfo.h; sourceTree = "<group>"; };
 		F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F954EA4AA8764BC903A65B221A346A50 /* Pods-BusAKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ToolsAPageView.m; path = YakerKit/Classes/ToolsAPageView.m; sourceTree = "<group>"; };
+		FACD0F57788B5110C398A202E482EBA6 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = YakerKit/KitClasses/tools/CTMediator.m; sourceTree = "<group>"; };
 		FD6E2B40B95DB06536437A5E126752DD /* BusAKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BusAKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -205,23 +205,6 @@
 			path = BusAKit/Classes/BusABase;
 			sourceTree = "<group>";
 		};
-		04A9FC5A606FD09E444C4B279A28D0E3 /* YakerKit */ = {
-			isa = PBXGroup;
-			children = (
-				673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */,
-				3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */,
-				B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */,
-				4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */,
-				C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */,
-				CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */,
-				E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */,
-				F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */,
-				710471E14E15641B4E97FF716FF01579 /* Support Files */,
-			);
-			name = YakerKit;
-			path = YakerKit;
-			sourceTree = "<group>";
-		};
 		1DA48705AEC427206F447BA752DF7106 /* BusAKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,25 +250,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		710471E14E15641B4E97FF716FF01579 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C8AE3747A66CCE03005CA8AC0035C84 /* YakerKit.modulemap */,
-				D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */,
-				B388A2E7EEE1914D798D0C7ADEAC5427 /* YakerKit-Info.plist */,
-				A69EAAC2EF2B64C5FC8B51FF53E10A6C /* YakerKit-prefix.pch */,
-				3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */,
-				A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */,
-				B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/YakerKit";
-			sourceTree = "<group>";
-		};
 		91643293C59CE8D0209F150788DF6D31 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04A9FC5A606FD09E444C4B279A28D0E3 /* YakerKit */,
+				ECB6A6834011D1B1C78FE34E9623CEFB /* YakerKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -334,6 +302,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CB0548CAF14CCC6A096AA2584F496B37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C00736F73C5CC10CD7719190BF5EE /* YakerKit.modulemap */,
+				EDF69A034D1602F69C7E84FE7750CDD7 /* YakerKit-dummy.m */,
+				B2BEA5129FE50955A69AF72A51A6FE17 /* YakerKit-Info.plist */,
+				4A08BFA7B8CBBB0DD873F1BAA8D4AFE1 /* YakerKit-prefix.pch */,
+				E7137C16B6E96925ABC5686C0DA3CA1E /* YakerKit-umbrella.h */,
+				DB612F80AA7338F006E650E74C13C23F /* YakerKit.debug.xcconfig */,
+				CCBE9FDB8175341C8B3D5E2747680359 /* YakerKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YakerKit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +327,23 @@
 				B7926472417EA41754C9E56964199FBF /* Products */,
 				42F246A74B9003D1CBDFDA4B467B81AD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		ECB6A6834011D1B1C78FE34E9623CEFB /* YakerKit */ = {
+			isa = PBXGroup;
+			children = (
+				73C7C262A81CB3AF1E80D4814C11C8A0 /* CTMediator.h */,
+				FACD0F57788B5110C398A202E482EBA6 /* CTMediator.m */,
+				563CA5FA2F22044E33249A703CA83895 /* InfoButton.h */,
+				7CF6923275592FF4FEFE2A722D30C164 /* InfoButton.m */,
+				4413F0830FE96229038601208306AD4B /* ModuleModel.h */,
+				4082FFA906C732132088E7170D317DA9 /* ModuleModel.m */,
+				AC9E64A65F07E8D637F14586AFFABA3B /* ToolsAPageView.h */,
+				00428005CB0376E59B00F693D8BE2ED8 /* ToolsAPageView.m */,
+				CB0548CAF14CCC6A096AA2584F496B37 /* Support Files */,
+			);
+			name = YakerKit;
+			path = YakerKit;
 			sourceTree = "<group>";
 		};
 		FC0203B60AF99231C7AF242CC948C41A /* Pods-BusAKit_Tests */ = {
@@ -394,10 +394,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEF8F4997A60FD37C496D2A1FF24192 /* CTMediator.h in Headers */,
-				4805286E72CC72E386E8558D16713BD8 /* InfoButton.h in Headers */,
-				8220B0B70093CCA0F67B76D57533CA38 /* ModuleModel.h in Headers */,
-				ED1A036B1DC1BE06E88C08805A728934 /* ToolsAPageView.h in Headers */,
+				E53BBD9881682C7A33C843507B0D825F /* CTMediator.h in Headers */,
+				8733E0CE79044B913630EB9062E08A4E /* InfoButton.h in Headers */,
+				490D8E01D85981D6CBE5C10FC6F84EF3 /* ModuleModel.h in Headers */,
+				A631AC0DCF7F7EEE64EBD4B834A637A6 /* ToolsAPageView.h in Headers */,
 				3282DA1FF42E716B025344D3C0D1698E /* YakerKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,10 +563,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A9EAA07F64802534EB98C4BA2F0EEC /* CTMediator.m in Sources */,
-				D9C6DFCD2164DA0F13F343BDFA5D319D /* InfoButton.m in Sources */,
-				D9614FAA0AA5FE4986338BCFC4002C7E /* ModuleModel.m in Sources */,
-				9EB23344B9FAABBDD2B8BC24AE996D03 /* ToolsAPageView.m in Sources */,
+				97C60B8204EE853A8E809EEAEF2838A8 /* CTMediator.m in Sources */,
+				A7DA21FA8A8D9551DBCD9348E27F61FE /* InfoButton.m in Sources */,
+				165CFB2AAB345BA6FCB339FB9EA0204C /* ModuleModel.m in Sources */,
+				0E8B06CCCA70F568AACE11BDFC603964 /* ToolsAPageView.m in Sources */,
 				73AD5BAC2E7428120D879FD7552C02E3 /* YakerKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,7 +699,7 @@
 		};
 		5ECCDF3251C03B05E872EBD6E1B7FB2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */;
+			baseConfigurationReference = CCBE9FDB8175341C8B3D5E2747680359 /* YakerKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -855,7 +855,7 @@
 		};
 		CE25E2EFF83F3391C49E5547FB603DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */;
+			baseConfigurationReference = DB612F80AA7338F006E650E74C13C23F /* YakerKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
