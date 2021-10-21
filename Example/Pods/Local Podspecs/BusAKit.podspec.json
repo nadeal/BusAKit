@@ -1,0 +1,38 @@
+{
+  "name": "BusAKit",
+  "version": "0.1.0",
+  "summary": "A short description of BusAKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nadeal/BusAKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nadeal": "1973943303@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/nadeal/BusAKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BusAKit/Classes/**/*",
+  "dependencies": {
+    "YakerKit": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "BusAbase",
+      "source_files": "BusAKit/BusAbase/**/*.{h,m}",
+      "resource_bundles": {
+        "BusAKit": [
+          "BusAKit/Base/*.xcassets"
+        ]
+      }
+    }
+  ]
+}

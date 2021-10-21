@@ -1,9 +1,11 @@
 use_frameworks!
+source 'https://github.com/nadeal/geraSpecs.git'
 
 platform :ios, '9.0'
 
 target 'BusAKit_Example' do
   pod 'BusAKit', :path => '../'
+  pod 'YakerKit'
 
   target 'BusAKit_Tests' do
     inherit! :search_paths

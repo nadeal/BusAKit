@@ -7,6 +7,7 @@
 //
 
 #import "DYViewController.h"
+#import <YakerKit/InfoButton.h>
 
 @interface DYViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    InfoButton *tempBtn = [[InfoButton alloc] initWithFrame:CGRectMake(20, 60, 80, 35)];
+    [self.view addSubview:tempBtn];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

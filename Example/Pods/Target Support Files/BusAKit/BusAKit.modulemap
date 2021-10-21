@@ -1,0 +1,6 @@
+framework module BusAKit {
+  umbrella header "BusAKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

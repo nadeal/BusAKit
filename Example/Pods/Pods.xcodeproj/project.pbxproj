@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D44DBCD228A8509815F09A740B11DB /* Target_DYInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0F394031CD4AD0410552E9868DB8F5 /* Target_DYInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		222F02AD614A629E37402955FCEE1DDF /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0BC50B0EE0CDB636BC008D64A54566 /* BusAKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 155CC9F78CB2FCAF2F4A6B3E0620E03E /* BusAKit-dummy.m */; };
+		2C7079BA8D092A60323F78DE94E8B55C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
+		3210CA71C3B3B7C3A14FE282E3715B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
+		458A4912F2C528C2E121110C0FA4ED7D /* DYInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D23B482F91C9416FC4F951DBBF1F2683 /* DYInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E984751E595DFE87F4DAFC5A61FD0A6 /* ModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */; };
+		5099B1EDAE2F35D9BED0A87696BA394E /* InfoButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F429DD9F25362C115A4A9364F467A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
+		5A5CDBECC0CD08AD184D2678EDF9DF86 /* CTMediator+DYInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD3FA5FD0B2CF7797A1D0CE227E5BB2 /* CTMediator+DYInfoView.m */; };
+		5EE1263B3113E1148243F4851BA117BD /* DYUrlToMine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC1F57C7C6053058788A477AB1FA95E /* DYUrlToMine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62632531F950E694816CB55CE9490D28 /* DYUrlToMine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4B4FD04B86409D2E8E35C08130828A /* DYUrlToMine.m */; };
+		645702DBBD40803FE1229211B3762AC7 /* DYMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7140E4245455CABCAFD53328A54E0F /* DYMineViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729FF5096CBD595EE1821D9D19D68A56 /* BusAKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B1D010F92A7CF24436D000DB19A2EA /* BusAKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7444B2A60D1F11410CD27F276D77CC74 /* Pods-BusAKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2663E74C9449A7EC1F7B7C69EB9C7A /* Pods-BusAKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B4747543B6E4EDCED97BA4C7808EA2 /* BusAKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 438D9FD59589AB6189450C77DBB3132C /* BusAKit.bundle */; };
+		81D74BF78B436AD590A10A1805325F5F /* InfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */; };
+		84D4B7513903C66976ADBCB5902039E0 /* DyBusAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CB79FA8C143C1B67D75783E7622C98 /* DyBusAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855B748DF03987F9B54A110FE73A5482 /* Pods-BusAKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0082F2062B7CE9DE36252B9CABA94294 /* Pods-BusAKit_Tests-dummy.m */; };
+		863E3ADF60959878C25E806589A32119 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */; };
+		89932606CF29F4BD231117F32B4A3442 /* YakerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		910701B79A608F1B4A32C3FCEDD599AC /* ToolsAPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92109E233B12EEFCC4BF388EC4C98A64 /* CTMediator+DYInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF0B97536C9ABE188541C94FC2762FA /* CTMediator+DYInfoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9508CD79B2B7E56E97ECDFDCB0111E41 /* Pods-BusAKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6639F70AEB771E1B9E5C9CDB5028509 /* Pods-BusAKit_Example-dummy.m */; };
+		96DC43C32DEBE94B3157CDDE3B1439AF /* YakerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */; };
+		A36DC43AA29336D16B46141124715418 /* Pods-BusAKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6208237FDE22516C88CC1D364CFADED9 /* Pods-BusAKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43DAD070803728DED6F3844AAC1FABD /* Target_DYInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64918C73714275E9A55CF07F2B0DC387 /* Target_DYInfo.m */; };
+		A6EDE992958297A57469D0C9E6AD06C1 /* ToolsAPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */; };
+		C03558A075806392CF1FDB7E955070C7 /* PersonaViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95967432BD3C9A20E9358BBA6DCFFF2F /* PersonaViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2955C907A473AF8D370FD636F04F447 /* ModuleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6DA2687EA1CDCA1F067D4E10BF033F5 /* YakerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */; };
+		DB8A93A13C0BF0BA12B27B74BC1A8462 /* DYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8878D34E4899A2574B4EBF4D891E506A /* DYMineViewController.m */; };
+		DCD32F4AE78B21B7B69FDD6968CD2A84 /* DYInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE717AFE08D3D0F0D93F3655428AC9 /* DYInfoViewController.m */; };
+		E5827115D3F9B0A4C831980DB6EB0623 /* PersonaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2055A60D59DC98D25FE5FB45F8D89E8 /* PersonaViewController.m */; };
+		E8A3712C238D80D83FB6F91E6C18F7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B136CFE0B5955F65A130C8AA26FC762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99243C2A460CC64FAB8CF84AD05CF18B;
+			remoteInfo = YakerKit;
+		};
+		2963D64F3FB37D40EC1488ABA8A88035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99243C2A460CC64FAB8CF84AD05CF18B;
+			remoteInfo = YakerKit;
+		};
+		4CA27804937CCF1BE86CC6FD9628CA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BBF349A384E41C057A54A69C1255DD1;
+			remoteInfo = "BusAKit-BusAKit";
+		};
+		5ADB7945A96FDED90A675228EF362405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5017B526845F92EDFDF0A692997C7A4C;
+			remoteInfo = "Pods-BusAKit_Example";
+		};
+		E87489A0F7623D3E0D2EB4A7AACC231C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5507D19499EFA765DB82075B324EAB;
+			remoteInfo = BusAKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0082F2062B7CE9DE36252B9CABA94294 /* Pods-BusAKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BusAKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		03FAB2D95593258675B6B2FEA22974B4 /* Pods-BusAKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4B4FD04B86409D2E8E35C08130828A /* DYUrlToMine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYUrlToMine.m; sourceTree = "<group>"; };
+		0E471554BD86BBCDBB0BB0250B0C4FF4 /* Pods-BusAKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Example-Info.plist"; sourceTree = "<group>"; };
+		155CC9F78CB2FCAF2F4A6B3E0620E03E /* BusAKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BusAKit-dummy.m"; sourceTree = "<group>"; };
+		15C502576F21F777A4001694400A2083 /* BusAKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BusAKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		179099FA5C64721269B59D1F3EADFF0A /* BusAKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BusAKit.modulemap; sourceTree = "<group>"; };
+		216ECB6D9FB29DCC8235F0CB50F32535 /* Pods-BusAKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BusAKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E57390524267628D0E3D2DD76C6224B /* Pods-BusAKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-umbrella.h"; sourceTree = "<group>"; };
+		3E96E57F875328C4FF219EB2A6260F15 /* ResourceBundle-BusAKit-BusAKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BusAKit-BusAKit-Info.plist"; sourceTree = "<group>"; };
+		3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = YakerKit/Classes/tools/CTMediator.m; sourceTree = "<group>"; };
+		407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BusAKit.framework; path = BusAKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D9FD59589AB6189450C77DBB3132C /* BusAKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BusAKit.bundle; path = "BusAKit-BusAKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Tests.framework; path = "Pods-BusAKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YakerKit.framework; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfoButton.m; path = YakerKit/Classes/InfoButton.m; sourceTree = "<group>"; };
+		4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Example.framework; path = "Pods-BusAKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8AE3747A66CCE03005CA8AC0035C84 /* YakerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YakerKit.modulemap; sourceTree = "<group>"; };
+		5CE0333775939B1BDA4047A816D8ACD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6208237FDE22516C88CC1D364CFADED9 /* Pods-BusAKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BusAKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		636B78576902B7F7A853EEF9E163D4F8 /* Pods-BusAKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		64918C73714275E9A55CF07F2B0DC387 /* Target_DYInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_DYInfo.m; sourceTree = "<group>"; };
+		6647FCD2A89B604CB71E3184D8D93B5B /* BusAKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusAKit.release.xcconfig; sourceTree = "<group>"; };
+		673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = YakerKit/Classes/tools/CTMediator.h; sourceTree = "<group>"; };
+		6D734747FE29196A3664EE9F5A5714BF /* Pods-BusAKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		77E08158F8645522307F9B4CE2B515A2 /* Pods-BusAKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		876CB18A7C42B8B3DE4C064FCFBDDEBF /* Pods-BusAKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8878D34E4899A2574B4EBF4D891E506A /* DYMineViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYMineViewController.m; sourceTree = "<group>"; };
+		8D0F394031CD4AD0410552E9868DB8F5 /* Target_DYInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_DYInfo.h; sourceTree = "<group>"; };
+		8DC1F57C7C6053058788A477AB1FA95E /* DYUrlToMine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYUrlToMine.h; sourceTree = "<group>"; };
+		8EAE717AFE08D3D0F0D93F3655428AC9 /* DYInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYInfoViewController.m; sourceTree = "<group>"; };
+		9013025F7683399CED6FBF3D90615CF7 /* BusAKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusAKit.debug.xcconfig; sourceTree = "<group>"; };
+		95967432BD3C9A20E9358BBA6DCFFF2F /* PersonaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PersonaViewController.h; sourceTree = "<group>"; };
+		96B1D010F92A7CF24436D000DB19A2EA /* BusAKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-umbrella.h"; sourceTree = "<group>"; };
+		9A62CA371A0F2AE8156C1C94F54BC8C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D3BF355EF73BA14B609231C70718792 /* Pods-BusAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.debug.xcconfig; sourceTree = "<group>"; };
+		A69EAAC2EF2B64C5FC8B51FF53E10A6C /* YakerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-prefix.pch"; sourceTree = "<group>"; };
+		AE7140E4245455CABCAFD53328A54E0F /* DYMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYMineViewController.h; sourceTree = "<group>"; };
+		B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfoButton.h; path = YakerKit/Classes/InfoButton.h; sourceTree = "<group>"; };
+		B388A2E7EEE1914D798D0C7ADEAC5427 /* YakerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YakerKit-Info.plist"; sourceTree = "<group>"; };
+		B6639F70AEB771E1B9E5C9CDB5028509 /* Pods-BusAKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BusAKit_Example-dummy.m"; sourceTree = "<group>"; };
+		B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.release.xcconfig; sourceTree = "<group>"; };
+		C2055A60D59DC98D25FE5FB45F8D89E8 /* PersonaViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PersonaViewController.m; sourceTree = "<group>"; };
+		C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleModel.h; path = YakerKit/Classes/ModuleModel.h; sourceTree = "<group>"; };
+		C6CB79FA8C143C1B67D75783E7622C98 /* DyBusAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DyBusAHeader.h; path = BusAKit/Classes/DyBusAHeader.h; sourceTree = "<group>"; };
+		C7E43B5F30F44486D3FA0B09258A5D8A /* Pods-BusAKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusAKit_Tests.modulemap"; sourceTree = "<group>"; };
+		CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleModel.m; path = YakerKit/Classes/ModuleModel.m; sourceTree = "<group>"; };
+		CB2663E74C9449A7EC1F7B7C69EB9C7A /* Pods-BusAKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BusAKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		CCEC9FB881AD75D56F2CDD36E2A5B277 /* Pods-BusAKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusAKit_Example.modulemap"; sourceTree = "<group>"; };
+		D23B482F91C9416FC4F951DBBF1F2683 /* DYInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYInfoViewController.h; sourceTree = "<group>"; };
+		D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YakerKit-dummy.m"; sourceTree = "<group>"; };
+		DFD3FA5FD0B2CF7797A1D0CE227E5BB2 /* CTMediator+DYInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+DYInfoView.m"; sourceTree = "<group>"; };
+		E817157F17E62DC3AEB121AB059AE4A8 /* BusAKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BusAKit-Info.plist"; sourceTree = "<group>"; };
+		E9A23043F84558C70DC0BA631F58B6A5 /* Pods-BusAKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolsAPageView.h; path = YakerKit/Classes/ToolsAPageView.h; sourceTree = "<group>"; };
+		F2F91239E85986A78B7B1464261AB793 /* BusAKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-prefix.pch"; sourceTree = "<group>"; };
+		F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F954EA4AA8764BC903A65B221A346A50 /* Pods-BusAKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ToolsAPageView.m; path = YakerKit/Classes/ToolsAPageView.m; sourceTree = "<group>"; };
+		FFF0B97536C9ABE188541C94FC2762FA /* CTMediator+DYInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+DYInfoView.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31867F14129B0BB825D03B221DA23A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7079BA8D092A60323F78DE94E8B55C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82D4181BFB97F38DC09433A25BEF944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A3712C238D80D83FB6F91E6C18F7BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE45C5900100CCDA84BDEF0F4B661F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F429DD9F25362C115A4A9364F467A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FC655006B3B5BF80B78B0A6E79F273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB185A5ADFB69660991439FC31E2C3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3210CA71C3B3B7C3A14FE282E3715B05 /* Foundation.framework in Frameworks */,
+				C6DA2687EA1CDCA1F067D4E10BF033F5 /* YakerKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A9FC5A606FD09E444C4B279A28D0E3 /* YakerKit */ = {
+			isa = PBXGroup;
+			children = (
+				673962114F31475AAAEFC87DF8675A11 /* CTMediator.h */,
+				3F15DDBF7F319C7D74FC08FF43D8B44F /* CTMediator.m */,
+				B0A17E9EB1329AA56A1AB02F43CE1833 /* InfoButton.h */,
+				4B907D734D346448A740C45B461F7DC0 /* InfoButton.m */,
+				C27FAC4537F1ABD8C9C6A34B450CE106 /* ModuleModel.h */,
+				CA0E6FAE788A49F7685DA71F0FE3D6A7 /* ModuleModel.m */,
+				E9B31D34557E120FF5F021E2D81B2C96 /* ToolsAPageView.h */,
+				F9E0F49573A85A2D6F84C9B48FF9C571 /* ToolsAPageView.m */,
+				710471E14E15641B4E97FF716FF01579 /* Support Files */,
+			);
+			name = YakerKit;
+			path = YakerKit;
+			sourceTree = "<group>";
+		};
+		14ED9EE39D539E1EC60B12ABB2F707E0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				15C502576F21F777A4001694400A2083 /* BusAKit.podspec */,
+				5CE0333775939B1BDA4047A816D8ACD4 /* LICENSE */,
+				9A62CA371A0F2AE8156C1C94F54BC8C5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		42F246A74B9003D1CBDFDA4B467B81AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24AD2F400184ACB2ACEA21517E40F1B /* Pods-BusAKit_Example */,
+				FC0203B60AF99231C7AF242CC948C41A /* Pods-BusAKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A3A75849E86D7B61511B322EEB2A8B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				179099FA5C64721269B59D1F3EADFF0A /* BusAKit.modulemap */,
+				155CC9F78CB2FCAF2F4A6B3E0620E03E /* BusAKit-dummy.m */,
+				E817157F17E62DC3AEB121AB059AE4A8 /* BusAKit-Info.plist */,
+				F2F91239E85986A78B7B1464261AB793 /* BusAKit-prefix.pch */,
+				96B1D010F92A7CF24436D000DB19A2EA /* BusAKit-umbrella.h */,
+				9013025F7683399CED6FBF3D90615CF7 /* BusAKit.debug.xcconfig */,
+				6647FCD2A89B604CB71E3184D8D93B5B /* BusAKit.release.xcconfig */,
+				3E96E57F875328C4FF219EB2A6260F15 /* ResourceBundle-BusAKit-BusAKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BusAKit";
+			sourceTree = "<group>";
+		};
+		6A2B0E2E729F452DFBB22F555BD5095D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */,
+				ADFE9D083C2CBD096301E9A236429663 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD611BC933D3C01159704F98A5DAA90 /* PageA */ = {
+			isa = PBXGroup;
+			children = (
+				D23B482F91C9416FC4F951DBBF1F2683 /* DYInfoViewController.h */,
+				8EAE717AFE08D3D0F0D93F3655428AC9 /* DYInfoViewController.m */,
+				AE7140E4245455CABCAFD53328A54E0F /* DYMineViewController.h */,
+				8878D34E4899A2574B4EBF4D891E506A /* DYMineViewController.m */,
+				95967432BD3C9A20E9358BBA6DCFFF2F /* PersonaViewController.h */,
+				C2055A60D59DC98D25FE5FB45F8D89E8 /* PersonaViewController.m */,
+			);
+			name = PageA;
+			path = BusAKit/Classes/PageA;
+			sourceTree = "<group>";
+		};
+		710471E14E15641B4E97FF716FF01579 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C8AE3747A66CCE03005CA8AC0035C84 /* YakerKit.modulemap */,
+				D410F7E4F5C79659684C018C1E033F2E /* YakerKit-dummy.m */,
+				B388A2E7EEE1914D798D0C7ADEAC5427 /* YakerKit-Info.plist */,
+				A69EAAC2EF2B64C5FC8B51FF53E10A6C /* YakerKit-prefix.pch */,
+				3C281D63AF0CD7B9749BB1AB3537040A /* YakerKit-umbrella.h */,
+				A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */,
+				B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YakerKit";
+			sourceTree = "<group>";
+		};
+		7DDD492709B05EACF9F0FBFF47BC351F /* BusABase */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0B97536C9ABE188541C94FC2762FA /* CTMediator+DYInfoView.h */,
+				DFD3FA5FD0B2CF7797A1D0CE227E5BB2 /* CTMediator+DYInfoView.m */,
+				8DC1F57C7C6053058788A477AB1FA95E /* DYUrlToMine.h */,
+				0B4B4FD04B86409D2E8E35C08130828A /* DYUrlToMine.m */,
+				8D0F394031CD4AD0410552E9868DB8F5 /* Target_DYInfo.h */,
+				64918C73714275E9A55CF07F2B0DC387 /* Target_DYInfo.m */,
+			);
+			name = BusABase;
+			path = BusAKit/Classes/BusABase;
+			sourceTree = "<group>";
+		};
+		91643293C59CE8D0209F150788DF6D31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04A9FC5A606FD09E444C4B279A28D0E3 /* YakerKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91C63FDF99AB6084E2EEC2BF3467E798 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A7DBD196F8F869B38634C087903A1 /* BusAKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A034443C6DF24731D2CF57E62547D901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438D9FD59589AB6189450C77DBB3132C /* BusAKit.bundle */,
+				407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */,
+				4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */,
+				45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */,
+				47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24AD2F400184ACB2ACEA21517E40F1B /* Pods-BusAKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCEC9FB881AD75D56F2CDD36E2A5B277 /* Pods-BusAKit_Example.modulemap */,
+				2E57390524267628D0E3D2DD76C6224B /* Pods-BusAKit_Example-acknowledgements.markdown */,
+				636B78576902B7F7A853EEF9E163D4F8 /* Pods-BusAKit_Example-acknowledgements.plist */,
+				B6639F70AEB771E1B9E5C9CDB5028509 /* Pods-BusAKit_Example-dummy.m */,
+				216ECB6D9FB29DCC8235F0CB50F32535 /* Pods-BusAKit_Example-frameworks.sh */,
+				0E471554BD86BBCDBB0BB0250B0C4FF4 /* Pods-BusAKit_Example-Info.plist */,
+				CB2663E74C9449A7EC1F7B7C69EB9C7A /* Pods-BusAKit_Example-umbrella.h */,
+				03FAB2D95593258675B6B2FEA22974B4 /* Pods-BusAKit_Example.debug.xcconfig */,
+				E9A23043F84558C70DC0BA631F58B6A5 /* Pods-BusAKit_Example.release.xcconfig */,
+			);
+			name = "Pods-BusAKit_Example";
+			path = "Target Support Files/Pods-BusAKit_Example";
+			sourceTree = "<group>";
+		};
+		ADFE9D083C2CBD096301E9A236429663 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91C63FDF99AB6084E2EEC2BF3467E798 /* Development Pods */,
+				6A2B0E2E729F452DFBB22F555BD5095D /* Frameworks */,
+				91643293C59CE8D0209F150788DF6D31 /* Pods */,
+				A034443C6DF24731D2CF57E62547D901 /* Products */,
+				42F246A74B9003D1CBDFDA4B467B81AD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8A7DBD196F8F869B38634C087903A1 /* BusAKit */ = {
+			isa = PBXGroup;
+			children = (
+				C6CB79FA8C143C1B67D75783E7622C98 /* DyBusAHeader.h */,
+				7DDD492709B05EACF9F0FBFF47BC351F /* BusABase */,
+				6BD611BC933D3C01159704F98A5DAA90 /* PageA */,
+				14ED9EE39D539E1EC60B12ABB2F707E0 /* Pod */,
+				5A3A75849E86D7B61511B322EEB2A8B4 /* Support Files */,
+			);
+			name = BusAKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC0203B60AF99231C7AF242CC948C41A /* Pods-BusAKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7E43B5F30F44486D3FA0B09258A5D8A /* Pods-BusAKit_Tests.modulemap */,
+				876CB18A7C42B8B3DE4C064FCFBDDEBF /* Pods-BusAKit_Tests-acknowledgements.markdown */,
+				77E08158F8645522307F9B4CE2B515A2 /* Pods-BusAKit_Tests-acknowledgements.plist */,
+				0082F2062B7CE9DE36252B9CABA94294 /* Pods-BusAKit_Tests-dummy.m */,
+				6D734747FE29196A3664EE9F5A5714BF /* Pods-BusAKit_Tests-Info.plist */,
+				6208237FDE22516C88CC1D364CFADED9 /* Pods-BusAKit_Tests-umbrella.h */,
+				F954EA4AA8764BC903A65B221A346A50 /* Pods-BusAKit_Tests.debug.xcconfig */,
+				9D3BF355EF73BA14B609231C70718792 /* Pods-BusAKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-BusAKit_Tests";
+			path = "Target Support Files/Pods-BusAKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1C974CEE980CFBC4A593DDDCF292864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222F02AD614A629E37402955FCEE1DDF /* CTMediator.h in Headers */,
+				5099B1EDAE2F35D9BED0A87696BA394E /* InfoButton.h in Headers */,
+				C2955C907A473AF8D370FD636F04F447 /* ModuleModel.h in Headers */,
+				910701B79A608F1B4A32C3FCEDD599AC /* ToolsAPageView.h in Headers */,
+				89932606CF29F4BD231117F32B4A3442 /* YakerKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE5CB4F61845BD513F849858E67D32F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729FF5096CBD595EE1821D9D19D68A56 /* BusAKit-umbrella.h in Headers */,
+				92109E233B12EEFCC4BF388EC4C98A64 /* CTMediator+DYInfoView.h in Headers */,
+				84D4B7513903C66976ADBCB5902039E0 /* DyBusAHeader.h in Headers */,
+				458A4912F2C528C2E121110C0FA4ED7D /* DYInfoViewController.h in Headers */,
+				645702DBBD40803FE1229211B3762AC7 /* DYMineViewController.h in Headers */,
+				5EE1263B3113E1148243F4851BA117BD /* DYUrlToMine.h in Headers */,
+				C03558A075806392CF1FDB7E955070C7 /* PersonaViewController.h in Headers */,
+				04D44DBCD228A8509815F09A740B11DB /* Target_DYInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F638444B6F19202EBCF1BB598A0F76F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7444B2A60D1F11410CD27F276D77CC74 /* Pods-BusAKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8B023D7CF48B0D640D6E0ECFEDC930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A36DC43AA29336D16B46141124715418 /* Pods-BusAKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BBF349A384E41C057A54A69C1255DD1 /* BusAKit-BusAKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14B1A1CEF24E0BE3AF14F13FBAEB36A /* Build configuration list for PBXNativeTarget "BusAKit-BusAKit" */;
+			buildPhases = (
+				FB16AF308366197DFFD0C52FCC92E7B5 /* Sources */,
+				F1FC655006B3B5BF80B78B0A6E79F273 /* Frameworks */,
+				7FE179B9913EC33AEFE052B46719E223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusAKit-BusAKit";
+			productName = "BusAKit-BusAKit";
+			productReference = 438D9FD59589AB6189450C77DBB3132C /* BusAKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		238E8A72A7D7791F15C95AC1B02192C7 /* Pods-BusAKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAA9176074204CA08C679FA53C78382 /* Build configuration list for PBXNativeTarget "Pods-BusAKit_Tests" */;
+			buildPhases = (
+				FF8B023D7CF48B0D640D6E0ECFEDC930 /* Headers */,
+				AD3B2146108D5BDF582E3C98985B8DE7 /* Sources */,
+				C82D4181BFB97F38DC09433A25BEF944 /* Frameworks */,
+				E7FAC2E377CCD6E55FDA061DDCBAB92F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411410829E1225E193BB21AA2D0D01E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-BusAKit_Tests";
+			productName = "Pods-BusAKit_Tests";
+			productReference = 45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5017B526845F92EDFDF0A692997C7A4C /* Pods-BusAKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E41C5D48EF98F422E2B1E7681D086A /* Build configuration list for PBXNativeTarget "Pods-BusAKit_Example" */;
+			buildPhases = (
+				F638444B6F19202EBCF1BB598A0F76F3 /* Headers */,
+				60C319E8C2E7EF8604A8B14D5F52A5AF /* Sources */,
+				CE45C5900100CCDA84BDEF0F4B661F21 /* Frameworks */,
+				1BD09717FEF4C3C4930B124F315DAD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CF81151982564F41290C5EE65BA0AC /* PBXTargetDependency */,
+				74A08C9CB8E61B18AC1CA2712EB1B2EE /* PBXTargetDependency */,
+			);
+			name = "Pods-BusAKit_Example";
+			productName = "Pods-BusAKit_Example";
+			productReference = 4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99243C2A460CC64FAB8CF84AD05CF18B /* YakerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2111256A9CCC2AFB9E67B23F15F7E1CA /* Build configuration list for PBXNativeTarget "YakerKit" */;
+			buildPhases = (
+				D1C974CEE980CFBC4A593DDDCF292864 /* Headers */,
+				94D5741946DE044C477193AA9950AE81 /* Sources */,
+				C31867F14129B0BB825D03B221DA23A0 /* Frameworks */,
+				8FBAEEB3974087A83B5ACEC8BD7205CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YakerKit;
+			productName = YakerKit;
+			productReference = 47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE5507D19499EFA765DB82075B324EAB /* BusAKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67771158909ABE4B2E34B91FE8F5CBB5 /* Build configuration list for PBXNativeTarget "BusAKit" */;
+			buildPhases = (
+				EE5CB4F61845BD513F849858E67D32F1 /* Headers */,
+				1042224DE3FCB6D234DE5A783A82101A /* Sources */,
+				FAB185A5ADFB69660991439FC31E2C3F /* Frameworks */,
+				F2102F5E21CD736E74781BBFD6E7F830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FFE6899C13B7D1FDE86963AF3A0EEB0 /* PBXTargetDependency */,
+				C47F7DD01869879E1CF04C868FE06FBB /* PBXTargetDependency */,
+			);
+			name = BusAKit;
+			productName = BusAKit;
+			productReference = 407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A034443C6DF24731D2CF57E62547D901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE5507D19499EFA765DB82075B324EAB /* BusAKit */,
+				0BBF349A384E41C057A54A69C1255DD1 /* BusAKit-BusAKit */,
+				5017B526845F92EDFDF0A692997C7A4C /* Pods-BusAKit_Example */,
+				238E8A72A7D7791F15C95AC1B02192C7 /* Pods-BusAKit_Tests */,
+				99243C2A460CC64FAB8CF84AD05CF18B /* YakerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BD09717FEF4C3C4930B124F315DAD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE179B9913EC33AEFE052B46719E223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBAEEB3974087A83B5ACEC8BD7205CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7FAC2E377CCD6E55FDA061DDCBAB92F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2102F5E21CD736E74781BBFD6E7F830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B4747543B6E4EDCED97BA4C7808EA2 /* BusAKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1042224DE3FCB6D234DE5A783A82101A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0BC50B0EE0CDB636BC008D64A54566 /* BusAKit-dummy.m in Sources */,
+				5A5CDBECC0CD08AD184D2678EDF9DF86 /* CTMediator+DYInfoView.m in Sources */,
+				DCD32F4AE78B21B7B69FDD6968CD2A84 /* DYInfoViewController.m in Sources */,
+				DB8A93A13C0BF0BA12B27B74BC1A8462 /* DYMineViewController.m in Sources */,
+				62632531F950E694816CB55CE9490D28 /* DYUrlToMine.m in Sources */,
+				E5827115D3F9B0A4C831980DB6EB0623 /* PersonaViewController.m in Sources */,
+				A43DAD070803728DED6F3844AAC1FABD /* Target_DYInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C319E8C2E7EF8604A8B14D5F52A5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9508CD79B2B7E56E97ECDFDCB0111E41 /* Pods-BusAKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D5741946DE044C477193AA9950AE81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863E3ADF60959878C25E806589A32119 /* CTMediator.m in Sources */,
+				81D74BF78B436AD590A10A1805325F5F /* InfoButton.m in Sources */,
+				4E984751E595DFE87F4DAFC5A61FD0A6 /* ModuleModel.m in Sources */,
+				A6EDE992958297A57469D0C9E6AD06C1 /* ToolsAPageView.m in Sources */,
+				96DC43C32DEBE94B3157CDDE3B1439AF /* YakerKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3B2146108D5BDF582E3C98985B8DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855B748DF03987F9B54A110FE73A5482 /* Pods-BusAKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB16AF308366197DFFD0C52FCC92E7B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411410829E1225E193BB21AA2D0D01E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BusAKit_Example";
+			target = 5017B526845F92EDFDF0A692997C7A4C /* Pods-BusAKit_Example */;
+			targetProxy = 5ADB7945A96FDED90A675228EF362405 /* PBXContainerItemProxy */;
+		};
+		53CF81151982564F41290C5EE65BA0AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BusAKit;
+			target = EE5507D19499EFA765DB82075B324EAB /* BusAKit */;
+			targetProxy = E87489A0F7623D3E0D2EB4A7AACC231C /* PBXContainerItemProxy */;
+		};
+		5FFE6899C13B7D1FDE86963AF3A0EEB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BusAKit-BusAKit";
+			target = 0BBF349A384E41C057A54A69C1255DD1 /* BusAKit-BusAKit */;
+			targetProxy = 4CA27804937CCF1BE86CC6FD9628CA1A /* PBXContainerItemProxy */;
+		};
+		74A08C9CB8E61B18AC1CA2712EB1B2EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YakerKit;
+			target = 99243C2A460CC64FAB8CF84AD05CF18B /* YakerKit */;
+			targetProxy = 1B136CFE0B5955F65A130C8AA26FC762 /* PBXContainerItemProxy */;
+		};
+		C47F7DD01869879E1CF04C868FE06FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YakerKit;
+			target = 99243C2A460CC64FAB8CF84AD05CF18B /* YakerKit */;
+			targetProxy = 2963D64F3FB37D40EC1488ABA8A88035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1553F3EB833A062D3EAA9BAA59BF98F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80399115ADDBC9A5E5B402ED2B3D801 /* YakerKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YakerKit/YakerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YakerKit/YakerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YakerKit/YakerKit.modulemap";
+				PRODUCT_MODULE_NAME = YakerKit;
+				PRODUCT_NAME = YakerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22552129A13FFA8A970A54835830DA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6647FCD2A89B604CB71E3184D8D93B5B /* BusAKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BusAKit/BusAKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BusAKit/BusAKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BusAKit/BusAKit.modulemap";
+				PRODUCT_MODULE_NAME = BusAKit;
+				PRODUCT_NAME = BusAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EF12ACE6C368F2442C5857D1D6EFE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F4015C26AA911172F3D2FA5A95FF18 /* YakerKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YakerKit/YakerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YakerKit/YakerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YakerKit/YakerKit.modulemap";
+				PRODUCT_MODULE_NAME = YakerKit;
+				PRODUCT_NAME = YakerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C449C88F2BFE3B1B02CA588915C4B77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A23043F84558C70DC0BA631F58B6A5 /* Pods-BusAKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusAKit_Example/Pods-BusAKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusAKit_Example/Pods-BusAKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C60D71661EA9C1AFE7FC4608DA2774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6647FCD2A89B604CB71E3184D8D93B5B /* BusAKit.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BusAKit";
+				IBSC_MODULE = BusAKit;
+				INFOPLIST_FILE = "Target Support Files/BusAKit/ResourceBundle-BusAKit-BusAKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BusAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EB3845339A289D1F65EE969D078E0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9013025F7683399CED6FBF3D90615CF7 /* BusAKit.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BusAKit";
+				IBSC_MODULE = BusAKit;
+				INFOPLIST_FILE = "Target Support Files/BusAKit/ResourceBundle-BusAKit-BusAKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BusAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F022E8CC26F9E9254CDA9A245CBFA987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3BF355EF73BA14B609231C70718792 /* Pods-BusAKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusAKit_Tests/Pods-BusAKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusAKit_Tests/Pods-BusAKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F37152D0351E3D57A5EA7CCBEDFC2562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FAB2D95593258675B6B2FEA22974B4 /* Pods-BusAKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusAKit_Example/Pods-BusAKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusAKit_Example/Pods-BusAKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3BEF9DC349D255514AA6A7AACEDC03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F954EA4AA8764BC903A65B221A346A50 /* Pods-BusAKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusAKit_Tests/Pods-BusAKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusAKit_Tests/Pods-BusAKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F812375E8F60A01094645FFD61343BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9013025F7683399CED6FBF3D90615CF7 /* BusAKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BusAKit/BusAKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BusAKit/BusAKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BusAKit/BusAKit.modulemap";
+				PRODUCT_MODULE_NAME = BusAKit;
+				PRODUCT_NAME = BusAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E41C5D48EF98F422E2B1E7681D086A /* Build configuration list for PBXNativeTarget "Pods-BusAKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37152D0351E3D57A5EA7CCBEDFC2562 /* Debug */,
+				C449C88F2BFE3B1B02CA588915C4B77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2111256A9CCC2AFB9E67B23F15F7E1CA /* Build configuration list for PBXNativeTarget "YakerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF12ACE6C368F2442C5857D1D6EFE98 /* Debug */,
+				1553F3EB833A062D3EAA9BAA59BF98F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67771158909ABE4B2E34B91FE8F5CBB5 /* Build configuration list for PBXNativeTarget "BusAKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F812375E8F60A01094645FFD61343BC0 /* Debug */,
+				22552129A13FFA8A970A54835830DA8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAA9176074204CA08C679FA53C78382 /* Build configuration list for PBXNativeTarget "Pods-BusAKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BEF9DC349D255514AA6A7AACEDC03A /* Debug */,
+				F022E8CC26F9E9254CDA9A245CBFA987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14B1A1CEF24E0BE3AF14F13FBAEB36A /* Build configuration list for PBXNativeTarget "BusAKit-BusAKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB3845339A289D1F65EE969D078E0286 /* Debug */,
+				C7C60D71661EA9C1AFE7FC4608DA2774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

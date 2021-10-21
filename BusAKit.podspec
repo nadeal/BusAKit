@@ -32,6 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BusAKit/Classes/**/*'
   
+  s.dependency "YakerKit"
+  
+  
   # s.resource_bundles = {
   #   'BusAKit' => ['BusAKit/Assets/*.png']
   # }
