@@ -11,7 +11,7 @@
 @implementation Target_DYInfo
 
 - (UIViewController *)Action_InfoMethod:(NSDictionary *)param {
-    
+    NSLog(@"Action_InfoMethod");
     return [[DYInfoViewController alloc] init];
     
 }

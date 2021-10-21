@@ -10,6 +10,7 @@
 @implementation CTMediator (DYInfoView)
 
 - (UIViewController*)targetActionToInfoView {
+    NSLog(@"targetActionToInfoView");
     return [self performTarget:@"DYInfo"
                         action:@"InfoMethod"
                         params:@{}
