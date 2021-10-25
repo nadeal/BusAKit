@@ -21,7 +21,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 40, 200, 45)];
-    titleLabel.text = @"DYInfoViewController";
+    titleLabel.text = @"BusA Kit DYInfoView";
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:titleLabel];
