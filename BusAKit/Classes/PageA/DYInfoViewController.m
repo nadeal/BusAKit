@@ -6,6 +6,8 @@
 //
 
 #import "DYInfoViewController.h"
+#import <YakerKit/InfoButton.h>
+#import "CTMediator+JumpBKit.h"
 
 @interface DYInfoViewController ()
 
@@ -23,6 +25,23 @@
     titleLabel.textColor = [UIColor blackColor];
     titleLabel.font = [UIFont systemFontOfSize:15];
     [self.view addSubview:titleLabel];
+    
+    InfoButton *aToBBtn = [[InfoButton alloc] initWithFrame:CGRectMake(120, 30 + 60, 100, 40)];
+    [aToBBtn addTarget:self action:@selector(onAToBBtn) forControlEvents:UIControlEventTouchUpInside];
+    aToBBtn.backgroundColor = [UIColor whiteColor];
+    [aToBBtn setTitle:@"To B Kit" forState:UIControlStateNormal];
+    aToBBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    [aToBBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:aToBBtn];
+    
+}
+
+- (void)onAToBBtn {
+    
+    UIViewController *vc = [[CTMediator sharedInstance] targetAKitToBKit];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 /*
