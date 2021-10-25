@@ -11,7 +11,7 @@
 
 
 NS_ASSUME_NONNULL_BEGIN
-
+//此处从BusAKit 挑战到 BusBKit  实现组件之间解耦  IOP面向接口
 @interface CTMediator (JumpBKit)
 
 - (UIViewController *)targetAKitToBKit;
