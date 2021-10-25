@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		008A666BC6E0FC39FF41442BBBE45130 /* CTMediator+DYInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA95619A31E743FC644818470D996973 /* CTMediator+DYInfoView.m */; };
+		078F29B1272698A500510853 /* CTMediator+JumpBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F29AF272698A500510853 /* CTMediator+JumpBKit.h */; };
+		078F29B2272698A500510853 /* CTMediator+JumpBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 078F29B0272698A500510853 /* CTMediator+JumpBKit.m */; };
 		095DD8A64516852BB6CBE75A75679799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */; };
 		0E8B06CCCA70F568AACE11BDFC603964 /* ToolsAPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00428005CB0376E59B00F693D8BE2ED8 /* ToolsAPageView.m */; };
 		165CFB2AAB345BA6FCB339FB9EA0204C /* ModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4082FFA906C732132088E7170D317DA9 /* ModuleModel.m */; };
@@ -82,18 +84,20 @@
 		0466574A1F5D22535FA4FCFE2794859E /* BusAKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BusAKit-Info.plist"; sourceTree = "<group>"; };
 		04B1E7404C975FAD9336A5A79A4B5268 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		072BBAE70E42A0D45F284F808FF77974 /* DYInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYInfoViewController.h; sourceTree = "<group>"; };
+		078F29AF272698A500510853 /* CTMediator+JumpBKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+JumpBKit.h"; sourceTree = "<group>"; };
+		078F29B0272698A500510853 /* CTMediator+JumpBKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+JumpBKit.m"; sourceTree = "<group>"; };
 		0E471554BD86BBCDBB0BB0250B0C4FF4 /* Pods-BusAKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusAKit_Example-Info.plist"; sourceTree = "<group>"; };
 		216ECB6D9FB29DCC8235F0CB50F32535 /* Pods-BusAKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BusAKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2E57390524267628D0E3D2DD76C6224B /* Pods-BusAKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		34FBFD80C4AFC7D90E807C18E45A13D6 /* PersonaViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PersonaViewController.h; sourceTree = "<group>"; };
 		38E7A9E8F7B739DB0F0C58886730E530 /* CTMediator+DYInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+DYInfoView.h"; sourceTree = "<group>"; };
-		407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BusAKit.framework; path = BusAKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		407EEA55F7554AD83D6660FE51BCFDA5 /* BusAKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BusAKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4082FFA906C732132088E7170D317DA9 /* ModuleModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleModel.m; path = YakerKit/KitClasses/ModuleModel.m; sourceTree = "<group>"; };
 		4413F0830FE96229038601208306AD4B /* ModuleModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleModel.h; path = YakerKit/KitClasses/ModuleModel.h; sourceTree = "<group>"; };
-		45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Tests.framework; path = "Pods-BusAKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YakerKit.framework; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45416229B3695472027E9630A88D4341 /* Pods_BusAKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusAKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47061CF8B3D6E9EAA00AF0EDD4259354 /* YakerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YakerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A08BFA7B8CBBB0DD873F1BAA8D4AFE1 /* YakerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-prefix.pch"; sourceTree = "<group>"; };
-		4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusAKit_Example.framework; path = "Pods-BusAKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAE6BC44C5B5E9BAF94E6E6ADA7FDA3 /* Pods_BusAKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusAKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FC0759DF9A3D21FB71B015BFC42B86 /* DYInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYInfoViewController.m; sourceTree = "<group>"; };
 		563CA5FA2F22044E33249A703CA83895 /* InfoButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfoButton.h; path = YakerKit/KitClasses/InfoButton.h; sourceTree = "<group>"; };
 		603004B23F9D9650B2F3A0AD0E36C516 /* DyBusAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DyBusAHeader.h; path = BusAKit/Classes/DyBusAHeader.h; sourceTree = "<group>"; };
@@ -107,8 +111,8 @@
 		876CB18A7C42B8B3DE4C064FCFBDDEBF /* Pods-BusAKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusAKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9ADC173195DE8EB3FEF4D1AFE2763265 /* BusAKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BusAKit.debug.xcconfig; sourceTree = "<group>"; };
 		9D3BF355EF73BA14B609231C70718792 /* Pods-BusAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A732FFD2AFB1024547CFBB09AF417C98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A732FFD2AFB1024547CFBB09AF417C98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7ACA0777FD30DB1827C0ADD86EE0EE3 /* BusAKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-umbrella.h"; sourceTree = "<group>"; };
 		AC1EACCFB8A66FDBB27025A7DD67C365 /* DYMineViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYMineViewController.h; sourceTree = "<group>"; };
 		AC9E64A65F07E8D637F14586AFFABA3B /* ToolsAPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ToolsAPageView.h; path = YakerKit/KitClasses/ToolsAPageView.h; sourceTree = "<group>"; };
@@ -128,7 +132,7 @@
 		DB612F80AA7338F006E650E74C13C23F /* YakerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YakerKit.debug.xcconfig; sourceTree = "<group>"; };
 		DF67CDC11F2F609C86862F77CF5F3323 /* BusAKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BusAKit-prefix.pch"; sourceTree = "<group>"; };
 		E1262CBFD5952C4E2534D6CEAF0E1ED3 /* PersonaViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PersonaViewController.m; sourceTree = "<group>"; };
-		E1921FD7A0BD9EFC094162E5E06A9DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E1921FD7A0BD9EFC094162E5E06A9DC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E7137C16B6E96925ABC5686C0DA3CA1E /* YakerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YakerKit-umbrella.h"; sourceTree = "<group>"; };
 		E9A23043F84558C70DC0BA631F58B6A5 /* Pods-BusAKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EDF69A034D1602F69C7E84FE7750CDD7 /* YakerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YakerKit-dummy.m"; sourceTree = "<group>"; };
@@ -136,7 +140,7 @@
 		F8C252C05C7A61E0161B6EDA4DA6FC4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F954EA4AA8764BC903A65B221A346A50 /* Pods-BusAKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusAKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FACD0F57788B5110C398A202E482EBA6 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = YakerKit/KitClasses/tools/CTMediator.m; sourceTree = "<group>"; };
-		FD6E2B40B95DB06536437A5E126752DD /* BusAKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BusAKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FD6E2B40B95DB06536437A5E126752DD /* BusAKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BusAKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,8 @@
 				6A57B9FC6875FA151FE315C7ABBC5E22 /* DYUrlToMine.m */,
 				F0F7F02BC8C4C213AA0824F158838398 /* Target_DYInfo.h */,
 				C7CE63A104A84D1B50B1D4637E344BD3 /* Target_DYInfo.m */,
+				078F29AF272698A500510853 /* CTMediator+JumpBKit.h */,
+				078F29B0272698A500510853 /* CTMediator+JumpBKit.m */,
 			);
 			name = BusABase;
 			path = BusAKit/Classes/BusABase;
@@ -342,7 +348,6 @@
 				00428005CB0376E59B00F693D8BE2ED8 /* ToolsAPageView.m */,
 				CB0548CAF14CCC6A096AA2584F496B37 /* Support Files */,
 			);
-			name = YakerKit;
 			path = YakerKit;
 			sourceTree = "<group>";
 		};
@@ -380,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FEB46AE1DAF0A0283335D9D9B82F570 /* BusAKit-umbrella.h in Headers */,
+				078F29B1272698A500510853 /* CTMediator+JumpBKit.h in Headers */,
 				93F069EBD62AB7BFE43119BD5EFDB706 /* CTMediator+DYInfoView.h in Headers */,
 				C044D215F2C8E93D9B8CD9A9F8809873 /* DyBusAHeader.h in Headers */,
 				7638D07E5F81EA25AE39217DEE166345 /* DYInfoViewController.h in Headers */,
@@ -588,6 +594,7 @@
 				FC6141C9D106033F2353FD405C16C501 /* DYInfoViewController.m in Sources */,
 				DD04EC7214F51B6618D3A49F5AE3DE6E /* DYMineViewController.m in Sources */,
 				97CB259E2E603899E821D2EACEEB086D /* DYUrlToMine.m in Sources */,
+				078F29B2272698A500510853 /* CTMediator+JumpBKit.m in Sources */,
 				C444559A34BF41F7B594C790ACD2BFD2 /* PersonaViewController.m in Sources */,
 				4CFB6921D79E1EAD3199AE82A7B08E05 /* Target_DYInfo.m in Sources */,
 			);
@@ -846,8 +853,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

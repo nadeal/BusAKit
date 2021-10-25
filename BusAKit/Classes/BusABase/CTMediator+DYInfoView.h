@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- 通过Target-Action的方式进行跳转
+ 通过Target-Action的方式进行跳转  Extension和Category实现方式
  */
 @interface CTMediator (DYInfoView)
 
